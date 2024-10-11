@@ -1,0 +1,12 @@
+C:\Users\VISMARK\source\repos\WinFormsApp1\MI_BIBLIOTECA\obj\Debug\MI_BIBLIOTECA.csproj.AssemblyReference.cache
+C:\Users\VISMARK\source\repos\WinFormsApp1\MI_BIBLIOTECA\obj\Debug\MI_BIBLIOTECA.csproj.CoreCompileInputs.cache
+C:\Users\VISMARK\source\repos\WinFormsApp1\MI_BIBLIOTECA\bin\Debug\MI_BIBLIOTECA.dll
+C:\Users\VISMARK\source\repos\WinFormsApp1\MI_BIBLIOTECA\bin\Debug\MI_BIBLIOTECA.pdb
+C:\Users\VISMARK\source\repos\WinFormsApp1\MI_BIBLIOTECA\obj\Debug\MI_BIBLIOTECA.dll
+C:\Users\VISMARK\source\repos\WinFormsApp1\MI_BIBLIOTECA\obj\Debug\MI_BIBLIOTECA.pdb
+C:\Users\VISMARK\Downloads\WinFormsApp1\MI_BIBLIOTECA\bin\Debug\MI_BIBLIOTECA.dll
+C:\Users\VISMARK\Downloads\WinFormsApp1\MI_BIBLIOTECA\bin\Debug\MI_BIBLIOTECA.pdb
+C:\Users\VISMARK\Downloads\WinFormsApp1\MI_BIBLIOTECA\obj\Debug\MI_BIBLIOTECA.csproj.AssemblyReference.cache
+C:\Users\VISMARK\Downloads\WinFormsApp1\MI_BIBLIOTECA\obj\Debug\MI_BIBLIOTECA.csproj.CoreCompileInputs.cache
+C:\Users\VISMARK\Downloads\WinFormsApp1\MI_BIBLIOTECA\obj\Debug\MI_BIBLIOTECA.dll
+C:\Users\VISMARK\Downloads\WinFormsApp1\MI_BIBLIOTECA\obj\Debug\MI_BIBLIOTECA.pdb

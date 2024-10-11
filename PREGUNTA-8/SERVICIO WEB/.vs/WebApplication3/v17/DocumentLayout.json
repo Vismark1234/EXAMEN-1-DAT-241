@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\EXAMEN\\PREGUNTA-8\\SERVICIO WEB\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B81C17BC-662E-44C5-AED5-9B7958406C7D}|WebApplication3\\WebApplication3.csproj|d:\\examen\\pregunta-8\\servicio web\\webapplication3\\webservice1.asmx||{FB9167C9-D3B8-4EDA-8083-9AF6B6F6DA62}",
+      "RelativeMoniker": "D:0:0:{B81C17BC-662E-44C5-AED5-9B7958406C7D}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\webservice1.asmx||{FB9167C9-D3B8-4EDA-8083-9AF6B6F6DA62}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B81C17BC-662E-44C5-AED5-9B7958406C7D}|WebApplication3\\WebApplication3.csproj|d:\\examen\\pregunta-8\\servicio web\\webapplication3\\webservice1.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B81C17BC-662E-44C5-AED5-9B7958406C7D}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\webservice1.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WebService1.asmx",
+              "DocumentMoniker": "D:\\EXAMEN\\PREGUNTA-8\\SERVICIO WEB\\WebApplication3\\WebService1.asmx",
+              "RelativeDocumentMoniker": "WebApplication3\\WebService1.asmx",
+              "ToolTip": "D:\\EXAMEN\\PREGUNTA-8\\SERVICIO WEB\\WebApplication3\\WebService1.asmx",
+              "RelativeToolTip": "WebApplication3\\WebService1.asmx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003504|",
+              "WhenOpened": "2024-10-11T01:56:37.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WebService1.asmx.cs",
+              "DocumentMoniker": "D:\\EXAMEN\\PREGUNTA-8\\SERVICIO WEB\\WebApplication3\\WebService1.asmx.cs",
+              "RelativeDocumentMoniker": "WebApplication3\\WebService1.asmx.cs",
+              "ToolTip": "D:\\EXAMEN\\PREGUNTA-8\\SERVICIO WEB\\WebApplication3\\WebService1.asmx.cs",
+              "RelativeToolTip": "WebApplication3\\WebService1.asmx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T18:38:36.592Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\VISMARK\\source\\repos\\WebApplication3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B81C17BC-662E-44C5-AED5-9B7958406C7D}|WebApplication3\\WebApplication3.csproj|c:\\users\\vismark\\source\\repos\\webapplication3\\webapplication3\\webservice1.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B81C17BC-662E-44C5-AED5-9B7958406C7D}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\webservice1.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WebService1.asmx.cs",
+              "DocumentMoniker": "C:\\Users\\VISMARK\\source\\repos\\WebApplication3\\WebApplication3\\WebService1.asmx.cs",
+              "RelativeDocumentMoniker": "WebApplication3\\WebService1.asmx.cs",
+              "ToolTip": "C:\\Users\\VISMARK\\source\\repos\\WebApplication3\\WebApplication3\\WebService1.asmx.cs",
+              "RelativeToolTip": "WebApplication3\\WebService1.asmx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T18:38:36.592Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

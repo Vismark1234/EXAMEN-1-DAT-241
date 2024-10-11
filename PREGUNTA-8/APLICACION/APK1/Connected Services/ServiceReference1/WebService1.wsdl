@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:tns="http://tempuri.org/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="HelloWorld">
+        <s:complexType />
+      </s:element>
+      <s:element name="HelloWorldResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="HelloWorldResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MultiplicacionImplicita">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="expresion" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MultiplicacionImplicitaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MultiplicacionImplicitaResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="VerificarParentesisBalanceados">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="expresion" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="VerificarParentesisBalanceadosResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="VerificarParentesisBalanceadosResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="VerificarSintaxis">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="expresion" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="VerificarSintaxisResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="VerificarSintaxisResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ConvertirAPostfija">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="expresion" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ConvertirAPostfijaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ConvertirAPostfijaResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EvaluarPostfija">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="expresionPostfija" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="EvaluarPostfijaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="EvaluarPostfijaResult" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="HelloWorldSoapIn">
+    <wsdl:part name="parameters" element="tns:HelloWorld" />
+  </wsdl:message>
+  <wsdl:message name="HelloWorldSoapOut">
+    <wsdl:part name="parameters" element="tns:HelloWorldResponse" />
+  </wsdl:message>
+  <wsdl:message name="MultiplicacionImplicitaSoapIn">
+    <wsdl:part name="parameters" element="tns:MultiplicacionImplicita" />
+  </wsdl:message>
+  <wsdl:message name="MultiplicacionImplicitaSoapOut">
+    <wsdl:part name="parameters" element="tns:MultiplicacionImplicitaResponse" />
+  </wsdl:message>
+  <wsdl:message name="VerificarParentesisBalanceadosSoapIn">
+    <wsdl:part name="parameters" element="tns:VerificarParentesisBalanceados" />
+  </wsdl:message>
+  <wsdl:message name="VerificarParentesisBalanceadosSoapOut">
+    <wsdl:part name="parameters" element="tns:VerificarParentesisBalanceadosResponse" />
+  </wsdl:message>
+  <wsdl:message name="VerificarSintaxisSoapIn">
+    <wsdl:part name="parameters" element="tns:VerificarSintaxis" />
+  </wsdl:message>
+  <wsdl:message name="VerificarSintaxisSoapOut">
+    <wsdl:part name="parameters" element="tns:VerificarSintaxisResponse" />
+  </wsdl:message>
+  <wsdl:message name="ConvertirAPostfijaSoapIn">
+    <wsdl:part name="parameters" element="tns:ConvertirAPostfija" />
+  </wsdl:message>
+  <wsdl:message name="ConvertirAPostfijaSoapOut">
+    <wsdl:part name="parameters" element="tns:ConvertirAPostfijaResponse" />
+  </wsdl:message>
+  <wsdl:message name="EvaluarPostfijaSoapIn">
+    <wsdl:part name="parameters" element="tns:EvaluarPostfija" />
+  </wsdl:message>
+  <wsdl:message name="EvaluarPostfijaSoapOut">
+    <wsdl:part name="parameters" element="tns:EvaluarPostfijaResponse" />
+  </wsdl:message>
+  <wsdl:portType name="WebService1Soap">
+    <wsdl:operation name="HelloWorld">
+      <wsdl:input message="tns:HelloWorldSoapIn" />
+      <wsdl:output message="tns:HelloWorldSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="MultiplicacionImplicita">
+      <wsdl:input message="tns:MultiplicacionImplicitaSoapIn" />
+      <wsdl:output message="tns:MultiplicacionImplicitaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="VerificarParentesisBalanceados">
+      <wsdl:input message="tns:VerificarParentesisBalanceadosSoapIn" />
+      <wsdl:output message="tns:VerificarParentesisBalanceadosSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="VerificarSintaxis">
+      <wsdl:input message="tns:VerificarSintaxisSoapIn" />
+      <wsdl:output message="tns:VerificarSintaxisSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ConvertirAPostfija">
+      <wsdl:input message="tns:ConvertirAPostfijaSoapIn" />
+      <wsdl:output message="tns:ConvertirAPostfijaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="EvaluarPostfija">
+      <wsdl:input message="tns:EvaluarPostfijaSoapIn" />
+      <wsdl:output message="tns:EvaluarPostfijaSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WebService1Soap" type="tns:WebService1Soap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWorld">
+      <soap:operation soapAction="http://tempuri.org/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MultiplicacionImplicita">
+      <soap:operation soapAction="http://tempuri.org/MultiplicacionImplicita" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="VerificarParentesisBalanceados">
+      <soap:operation soapAction="http://tempuri.org/VerificarParentesisBalanceados" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="VerificarSintaxis">
+      <soap:operation soapAction="http://tempuri.org/VerificarSintaxis" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ConvertirAPostfija">
+      <soap:operation soapAction="http://tempuri.org/ConvertirAPostfija" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EvaluarPostfija">
+      <soap:operation soapAction="http://tempuri.org/EvaluarPostfija" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WebService1Soap12" type="tns:WebService1Soap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWorld">
+      <soap12:operation soapAction="http://tempuri.org/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MultiplicacionImplicita">
+      <soap12:operation soapAction="http://tempuri.org/MultiplicacionImplicita" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="VerificarParentesisBalanceados">
+      <soap12:operation soapAction="http://tempuri.org/VerificarParentesisBalanceados" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="VerificarSintaxis">
+      <soap12:operation soapAction="http://tempuri.org/VerificarSintaxis" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ConvertirAPostfija">
+      <soap12:operation soapAction="http://tempuri.org/ConvertirAPostfija" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EvaluarPostfija">
+      <soap12:operation soapAction="http://tempuri.org/EvaluarPostfija" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WebService1">
+    <wsdl:port name="WebService1Soap" binding="tns:WebService1Soap">
+      <soap:address location="http://localhost:55573/WebService1.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WebService1Soap12" binding="tns:WebService1Soap12">
+      <soap12:address location="http://localhost:55573/WebService1.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

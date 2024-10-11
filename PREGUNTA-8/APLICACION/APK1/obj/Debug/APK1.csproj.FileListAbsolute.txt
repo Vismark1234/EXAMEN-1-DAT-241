@@ -1,0 +1,10 @@
+C:\Users\VISMARK\source\repos\APK1\APK1\bin\Debug\APK1.exe.config
+C:\Users\VISMARK\source\repos\APK1\APK1\bin\Debug\APK1.exe
+C:\Users\VISMARK\source\repos\APK1\APK1\bin\Debug\APK1.pdb
+C:\Users\VISMARK\source\repos\APK1\APK1\obj\Debug\APK1.csproj.AssemblyReference.cache
+C:\Users\VISMARK\source\repos\APK1\APK1\obj\Debug\APK1.Form1.resources
+C:\Users\VISMARK\source\repos\APK1\APK1\obj\Debug\APK1.Properties.Resources.resources
+C:\Users\VISMARK\source\repos\APK1\APK1\obj\Debug\APK1.csproj.GenerateResource.cache
+C:\Users\VISMARK\source\repos\APK1\APK1\obj\Debug\APK1.csproj.CoreCompileInputs.cache
+C:\Users\VISMARK\source\repos\APK1\APK1\obj\Debug\APK1.exe
+C:\Users\VISMARK\source\repos\APK1\APK1\obj\Debug\APK1.pdb

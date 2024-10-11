@@ -1,0 +1,10 @@
+C:\Users\VISMARK\source\repos\Bordes\Bordes\bin\Debug\Bordes.exe.config
+C:\Users\VISMARK\source\repos\Bordes\Bordes\bin\Debug\Bordes.exe
+C:\Users\VISMARK\source\repos\Bordes\Bordes\bin\Debug\Bordes.pdb
+C:\Users\VISMARK\source\repos\Bordes\Bordes\obj\Debug\Bordes.csproj.AssemblyReference.cache
+C:\Users\VISMARK\source\repos\Bordes\Bordes\obj\Debug\Bordes.Form1.resources
+C:\Users\VISMARK\source\repos\Bordes\Bordes\obj\Debug\Bordes.Properties.Resources.resources
+C:\Users\VISMARK\source\repos\Bordes\Bordes\obj\Debug\Bordes.csproj.GenerateResource.cache
+C:\Users\VISMARK\source\repos\Bordes\Bordes\obj\Debug\Bordes.csproj.CoreCompileInputs.cache
+C:\Users\VISMARK\source\repos\Bordes\Bordes\obj\Debug\Bordes.exe
+C:\Users\VISMARK\source\repos\Bordes\Bordes\obj\Debug\Bordes.pdb
